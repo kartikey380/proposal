@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b1026">
+<title>Delhi → Pune | Chapter 01</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader"><div class="loader-heart">♥</div><p>Something special is loading...</p></div>
+
+<div class="stars"></div>
+<div class="moon"></div>
+<div class="grain"></div>
+
+<header class="topbar">
+  <div class="brand">K <span>♥</span> P</div>
+  <div class="chapter-indicator" id="chapterIndicator">CHAPTER 01</div>
+  <button class="sound-btn" id="soundBtn" aria-label="Toggle music">♫</button>
+</header>
+
+<main>
+<section class="hero scene" id="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-content">
+    <p class="eyebrow reveal">A little story that started unexpectedly</p>
+    <h1 class="reveal delay1">Some stories take years<br>to begin...</h1>
+    <p class="script reveal delay2">Ours took just one Snapchat.</p>
+    <div class="avatar-pair reveal delay3">
+      <div class="city-avatar">
+        <div class="avatar boy"><span class="hair"></span><span class="face"></span><span class="shirt">K</span></div>
+        <span class="city">DELHI</span>
+      </div>
+      <div class="heart-orbit">♥</div>
+      <div class="city-avatar">
+        <div class="avatar girl"><span class="hair"></span><span class="face"></span><span class="shirt">P</span></div>
+        <span class="city">PUNE</span>
+      </div>
+    </div>
+    <button class="primary-btn reveal delay4" onclick="goTo('story')">Let's begin <span>→</span></button>
+    <p class="micro reveal delay4">Two cities · Two strangers · One unexpected story</p>
+  </div>
+  <div class="scroll-hint">scroll <span>↓</span></div>
+</section>
+
+<section class="story scene" id="story">
+  <div class="section-inner">
+    <span class="chapter">01 — THE STRANGER</span>
+    <h2>Two days ago,<br><em>I didn't know you.</em></h2>
+    <div class="chat-card">
+      <div class="chat-top"><span class="snap-dot"></span> Snapchat</div>
+      <div class="chat-line left">Hey 👋</div>
+      <div class="chat-line right">Heyy 😊</div>
+      <div class="chat-line left">Funny how one little message can start a whole conversation...</div>
+      <div class="chat-line right">And somehow, here we are. ❤️</div>
+    </div>
+    <p class="body-copy">Maybe it's only been two days. Maybe that's exactly what makes this beginning so unexpected.</p>
+    <button class="ghost-btn" onclick="goTo('distance')">Keep going →</button>
+  </div>
+</section>
+
+<section class="distance scene" id="distance">
+  <div class="section-inner wide">
+    <span class="chapter">02 — DIFFERENT CITIES</span>
+    <h2>Delhi <span>↔</span> Pune</h2>
+    <p class="subtitle">A little distance shouldn't get to decide everything.</p>
+    <div class="map-wrap">
+      <div class="map-city delhi-city">
+        <div class="pin"></div><strong>DELHI</strong><small>where Kartikey is</small>
+      </div>
+      <div class="route"><span class="plane">✈</span></div>
+      <div class="map-city pune-city">
+        <div class="pin"></div><strong>PUNE</strong><small>where Pooja is</small>
+      </div>
+    </div>
+    <p class="distance-line">Different cities. Same sky. <span>Same little smile when a message arrives.</span></p>
+    <button class="ghost-btn" onclick="goTo('little')">There's more →</button>
+  </div>
+</section>
+
+<section class="little scene" id="little">
+  <div class="section-inner">
+    <span class="chapter">03 — LITTLE THINGS</span>
+    <h2>It's only been two days,<br>but you've already left an impression.</h2>
+    <div class="reason-grid">
+      <div class="reason">The way you reply <b>so thoughtfully.</b> 💛</div>
+      <div class="reason">How easy it feels to <b>talk to you.</b> ✨</div>
+      <div class="reason">Your random and funny <b>messages.</b> 😄</div>
+      <div class="reason">The positivity you <b>bring.</b> 🌷</div>
+      <div class="reason">How ordinary conversations <b>feel special.</b> ❤️</div>
+      <div class="reason">The fact that you're <b>just... you.</b></div>
+    </div>
+    <p class="body-copy">I don't need to pretend I know where this goes. I just know I really like where it has started.</p>
+    <button class="ghost-btn" onclick="goTo('future')">Imagine with me →</button>
+  </div>
+</section>
+
+<section class="future scene" id="future">
+  <div class="section-inner">
+    <span class="chapter">04 — WHAT IF...?</span>
+    <h2>What if this is just<br><em>the first page?</em></h2>
+    <p class="subtitle">No promises about perfection. Just a few things I'd love to experience with you.</p>
+    <div class="future-cards">
+      <div class="future-card"><span>✈️</span><h3>Our first trip</h3><p>Somewhere neither of us has been.</p></div>
+      <div class="future-card"><span>🌅</span><h3>A shared sunset</h3><p>No screens. Just us and the sky.</p></div>
+      <div class="future-card"><span>😂</span><h3>Endless laughter</h3><p>The kind where neither of us remembers the joke.</p></div>
+      <div class="future-card"><span>☕</span><h3>That first coffee</h3><p>Finally meeting the person behind the screen.</p></div>
+    </div>
+    <button class="ghost-btn" onclick="goTo('question')">One last thing →</button>
+  </div>
+</section>
+
+<section class="question scene" id="question">
+  <div class="question-glow"></div>
+  <div class="section-inner">
+    <span class="chapter">05 — THE QUESTION</span>
+    <p class="question-small">Maybe it's too soon to call this a love story.</p>
+    <p class="question-small">Maybe it's simply the first page.</p>
+    <h2>Pooja...</h2>
+    <div class="big-question">would you like to<br><span>write the next pages with me?</span></div>
+    <div class="proposal-avatars">
+      <div class="avatar boy large"><span class="hair"></span><span class="face"></span><span class="shirt">K</span></div>
+      <div class="floating-heart">♥</div>
+      <div class="avatar girl large"><span class="hair"></span><span class="face"></span><span class="shirt">P</span></div>
+    </div>
+    <div class="choice">
+      <button class="yes-btn" onclick="yesAnswer()">YES ❤️</button>
+      <button class="think-btn" id="thinkBtn" onclick="thinkAnswer()">LET ME THINK 😌</button>
+    </div>
+    <p class="no-pressure">No pressure. Just an honest question from someone<br>who already loves talking to you. ❤️</p>
+  </div>
+</section>
+
+<section class="answer scene" id="answer">
+  <div class="answer-content">
+    <div id="answerEmoji">❤️</div>
+    <span class="chapter">CHAPTER 01</span>
+    <h2 id="answerTitle">BEGINS.</h2>
+    <p id="answerText">And just like that, a Snapchat conversation became the beginning of something worth discovering.</p>
+    <div class="signature">Delhi → Pune</div>
+    <div class="final-line">Strangers → Something More</div>
+    <button class="primary-btn" onclick="replay()">Replay our beginning ↻</button>
+  </div>
+</section>
+</main>
+
+<div id="confetti"></div>
+<script src="script.js"></script>
+</body>
+</html>
