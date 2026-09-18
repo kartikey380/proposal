@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090d24">
+<title>Delhi → Gorakhpur | Chapter 01</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Parisienne&display=swap');
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#070b1d;color:#fff8f4;font-family:Inter,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-5;background:radial-gradient(circle at 50% 20%,#222d5a 0,#101632 34%,#070b1d 75%)}
+body:after{content:"";position:fixed;inset:0;z-index:20;pointer-events:none;opacity:.035;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.stars{position:fixed;inset:0;z-index:-4;background-image:radial-gradient(#fff 1px,transparent 1px),radial-gradient(#fff 1px,transparent 1px);background-size:130px 130px,220px 220px;background-position:20px 30px,80px 100px;opacity:.35}
+.moon{position:fixed;right:8%;top:9%;width:135px;height:135px;border-radius:50%;z-index:-3;background:radial-gradient(circle at 32% 28%,#fff8e8,#e9cba8 55%,#987b91);box-shadow:0 0 80px #ffe0bb33}
+nav{position:fixed;z-index:30;top:0;left:0;right:0;padding:20px 6%;display:flex;justify-content:space-between;align-items:center;background:linear-gradient(#070b1de8,transparent)}
+.logo{font:27px Parisienne;color:#ff9db0}.sound{border:1px solid #fff3;background:#ffffff0b;color:white;border-radius:50%;width:40px;height:40px;cursor:pointer}
+section{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:100px 20px;position:relative}
+.inner{width:min(920px,100%);text-align:center}.chapter{font-size:10px;letter-spacing:4px;opacity:.5}.hero h1,h2{font-family:"Cormorant Garamond",serif;font-weight:500;line-height:.95}.hero h1{font-size:clamp(48px,8vw,90px);margin:24px 0 5px}.script{font:clamp(34px,5vw,54px) Parisienne;color:#ff9bad;margin:0 0 25px}
+.avatars{display:flex;align-items:center;justify-content:center;gap:35px;margin:20px}.avbox{display:flex;flex-direction:column;gap:8px;align-items:center}.city{font-size:10px;letter-spacing:3px;opacity:.5}.avatar{width:105px;height:125px;position:relative;filter:drop-shadow(0 18px 18px #0009);animation:float 4s ease-in-out infinite}.avatar.girl{animation-delay:.6s}.head{position:absolute;left:22%;top:16%;width:56%;height:50%;border-radius:48%;background:#e7a67d;z-index:2}.hair{position:absolute;left:14%;top:5%;width:72%;height:69%;border-radius:52% 52% 35% 35%;background:#20191d;z-index:3}.girl .hair{left:8%;width:84%;height:78%;border-radius:52% 52% 45% 45%}.body{position:absolute;bottom:0;left:7%;width:86%;height:47%;border-radius:45% 45% 10% 10%;background:linear-gradient(135deg,#273764,#111b3e);z-index:1;text-align:center;padding-top:25px;font-weight:700;color:#ffb2bf}.girl .body{background:linear-gradient(135deg,#b85d7f,#54294f)}.heart{font-size:28px;color:#ff8fa6;animation:pulse 1.5s infinite}@keyframes float{50%{transform:translateY(-8px)}}@keyframes pulse{50%{transform:scale(1.22);text-shadow:0 0 30px #ff718f}}button{font:inherit}.primary,.ghost,.yes,.think{cursor:pointer;border-radius:30px;padding:14px 26px;transition:.3s}.primary,.yes{border:0;color:#fff;background:linear-gradient(100deg,#ff6d90,#ff9aa5);box-shadow:0 12px 35px #ff708033}.ghost,.think{background:#ffffff08;color:#fff;border:1px solid #fff3}.primary:hover,.yes:hover,.ghost:hover,.think:hover{transform:translateY(-3px)}.micro{font-size:10px;opacity:.35;margin-top:18px}
+h2{font-size:clamp(48px,7vw,80px);margin:22px 0}.bodycopy,.subtitle{font:23px "Cormorant Garamond";opacity:.68;line-height:1.35;max-width:650px;margin:25px auto}.chat{max-width:450px;margin:30px auto;padding:18px;background:#11172f;border:1px solid #fff1;border-radius:22px;text-align:left;box-shadow:0 30px 80px #0007}.chathead{text-align:center;opacity:.5;font-size:11px;padding-bottom:13px;border-bottom:1px solid #fff1}.msg{padding:11px 14px;border-radius:16px;margin:12px 0;font-size:13px;max-width:78%}.left{background:#202744}.right{margin-left:auto;background:#c65e7b}.map{height:290px;max-width:900px;margin:25px auto;border-radius:30px;border:1px solid #fff1;position:relative;overflow:hidden;background:radial-gradient(ellipse,#1c2648,#090e25)}.map:before{content:"";position:absolute;inset:0;background-image:linear-gradient(30deg,#fff1 1px,transparent 1px),linear-gradient(150deg,#fff1 1px,transparent 1px);background-size:70px 70px}.citypin{position:absolute;top:44%;display:flex;flex-direction:column;align-items:center;z-index:2}.d{left:10%}.g{right:10%}.pin{width:14px;height:14px;border:3px solid #ff91a7;border-radius:50%;box-shadow:0 0 25px #ff91a7}.citypin b{letter-spacing:3px;margin-top:8px}.citypin small{opacity:.4}.route{position:absolute;left:22%;right:22%;top:48%;border-top:2px dashed #ff91a766;transform:rotate(-5deg)}.plane{position:absolute;left:45%;top:-19px;font-size:27px;color:#ffb2bd;animation:fly 3s infinite ease-in-out}@keyframes fly{50%{transform:translate(35px,-20px)}}.reasons{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:30px 0}.reason,.future{padding:25px 15px;border:1px solid #fff1;border-radius:18px;background:linear-gradient(145deg,#171d38,#0f142b);font:20px "Cormorant Garamond";transition:.3s}.reason:hover,.future:hover{transform:translateY(-6px);border-color:#ff9cad55}.reason b{color:#ffb1bd}.futures{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.future span{font-size:28px}.future h3{font:26px "Cormorant Garamond";margin:12px 0 5px}.future p{font-size:12px;opacity:.5;line-height:1.5}.question{overflow:hidden;text-align:center}.question h2{font:58px Parisienne;color:#ff9cad;margin:20px 0 5px}.big{font:31px "Cormorant Garamond";line-height:1.1}.big em{font:40px Parisienne;color:white;font-style:normal}.choices{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:20px}.note{font-size:10px;opacity:.4;line-height:1.6}.answer{display:none;background:radial-gradient(circle,#28204a,#070b1d)}.answer h2{font-size:95px;color:#ff9cad}.answer p{font:25px "Cormorant Garamond";opacity:.7}.signature{font:42px Parisienne;margin:25px}.confetti{position:fixed;top:-30px;z-index:90;pointer-events:none;animation:fall 4s linear forwards;color:#ff9aae}@keyframes fall{to{top:110vh;transform:rotate(720deg)}}#loader{position:fixed;inset:0;z-index:100;background:#070b1d;display:flex;align-items:center;justify-content:center;flex-direction:column;transition:.8s}.loadheart{font-size:55px;color:#ff8fa6;animation:pulse 1s infinite}.loadtext{opacity:.5;font-size:12px}
+@media(max-width:700px){.moon{width:90px;height:90px}.reasons,.futures{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:48px}.avatars{gap:10px}.big{font-size:25px}.big em{font-size:32px}.answer h2{font-size:70px}}@media(max-width:430px){.reasons,.futures{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div id="loader"><div class="loadheart">♥</div><div class="loadtext">Something special is loading...</div></div>
+<div class="stars"></div><div class="moon"></div>
+<nav><div class="logo">K ♥ P</div><button class="sound" id="sound">♫</button></nav>
+
+<section class="hero" id="home"><div class="inner">
+<p class="chapter">A LITTLE STORY THAT STARTED UNEXPECTEDLY</p>
+<h1>Some stories take years<br>to begin...</h1>
+<div class="script">Ours took just one Snapchat.</div>
+<div class="avatars">
+<div class="avbox"><div class="avatar"><i class="hair"></i><i class="head"></i><i class="body">K</i></div><span class="city">DELHI · KARTIKEY</span></div>
+<div class="heart">♥</div>
+<div class="avbox"><div class="avatar girl"><i class="hair"></i><i class="head"></i><i class="body">P</i></div><span class="city">GORAKHPUR · PARI</span></div>
+</div>
+<button class="primary" onclick="go('story')">Let's begin →</button>
+<p class="micro">Two cities · Two strangers · One unexpected story</p>
+</div></section>
+
+<section id="story"><div class="inner"><span class="chapter">01 — THE STRANGER</span>
+<h2>Two days ago,<br><em>I didn't know you.</em></h2>
+<div class="chat"><div class="chathead">👻 Snapchat</div><div class="msg left">Hey 👋</div><div class="msg right">Heyy 😊</div><div class="msg left">Funny how one little message can start a whole conversation...</div><div class="msg right">And somehow, here we are. ❤️</div></div>
+<p class="bodycopy">Maybe it's only been two days. Maybe that's exactly what makes this beginning so unexpected.</p>
+<button class="ghost" onclick="go('distance')">Keep going →</button></div></section>
+
+<section id="distance"><div class="inner"><span class="chapter">02 — DIFFERENT CITIES</span><h2>Delhi <span>↔</span> Gorakhpur</h2><p class="subtitle">A little distance shouldn't get to decide everything.</p>
+<div class="map"><div class="citypin d"><div class="pin"></div><b>DELHI</b><small>where Kartikey is</small></div><div class="route"><span class="plane">✈</span></div><div class="citypin g"><div class="pin"></div><b>GORAKHPUR</b><small>where Pari is</small></div></div>
+<p class="bodycopy">Different cities. Same sky.<br><span style="color:#ff9cad">And maybe the same little smile when a message arrives.</span></p>
+<button class="ghost" onclick="go('little')">There's more →</button></div></section>
+
+<section id="little"><div class="inner"><span class="chapter">03 — LITTLE THINGS</span><h2>It's only been two days,<br>but you've already left an impression.</h2>
+<div class="reasons"><div class="reason">The way you reply <b>so thoughtfully.</b> 💛</div><div class="reason">How easy it feels to <b>talk to you.</b> ✨</div><div class="reason">Your random and funny <b>messages.</b> 😄</div><div class="reason">The positivity you <b>bring.</b> 🌷</div><div class="reason">How ordinary conversations <b>feel special.</b> ❤️</div><div class="reason">The fact that you're <b>just... you.</b></div></div>
+<p class="bodycopy">I don't need to pretend I know where this goes. I just know I really like where it has started.</p>
+<button class="ghost" onclick="go('future')">Imagine with me →</button></div></section>
+
+<section id="future"><div class="inner"><span class="chapter">04 — WHAT IF...?</span><h2>What if this is just<br><em>the first page?</em></h2><p class="subtitle">No promises about perfection. Just a few things I'd love to experience with you.</p>
+<div class="futures"><div class="future"><span>✈️</span><h3>Our first trip</h3><p>Somewhere neither of us has been.</p></div><div class="future"><span>🌅</span><h3>A shared sunset</h3><p>No screens. Just us and the sky.</p></div><div class="future"><span>😂</span><h3>Endless laughter</h3><p>The kind where neither remembers the joke.</p></div><div class="future"><span>☕</span><h3>That first coffee</h3><p>Finally meeting the person behind the screen.</p></div></div>
+<button class="ghost" onclick="go('question')">One last thing →</button></div></section>
+
+<section class="question" id="question"><div class="inner"><span class="chapter">05 — THE QUESTION</span><p class="subtitle">Maybe it's too soon to call this a love story.<br>Maybe it's simply the first page.</p><h2>Pari...</h2><div class="big">would you like to<br><em>write the next pages with me?</em></div>
+<div class="avatars"><div class="avatar"><i class="hair"></i><i class="head"></i><i class="body">K</i></div><div class="heart">♥</div><div class="avatar girl"><i class="hair"></i><i class="head"></i><i class="body">P</i></div></div>
+<div class="choices"><button class="yes" onclick="yes()">YES ❤️</button><button class="think" id="think" onclick="think()">LET ME THINK 😌</button></div>
+<p class="note">No pressure. Just an honest question from someone<br>who already loves talking to you. ❤️</p></div></section>
+
+<section class="answer" id="answer"><div class="inner"><div style="font-size:70px">❤️</div><span class="chapter">CHAPTER 01</span><h2>BEGINS.</h2><p>And just like that, a Snapchat conversation became the beginning of something worth discovering. ❤️</p><div class="signature">Delhi → Gorakhpur</div><div style="letter-spacing:3px;font-size:11px;opacity:.45">STRANGERS → SOMETHING MORE</div><br><button class="primary" onclick="location.reload()">Replay our beginning ↻</button></div></section>
+
+<script>
+const go=id=>document.getElementById(id).scrollIntoView({behavior:'smooth'});
+addEventListener('load',()=>setTimeout(()=>{loader.style.opacity=0;setTimeout(()=>loader.remove(),800)},900));
+function burst(n=100){for(let i=0;i<n;i++){let e=document.createElement('span');e.className='confetti';e.textContent=['♥','❤','♡','✦'][Math.floor(Math.random()*4)];e.style.left=Math.random()*100+'vw';e.style.fontSize=12+Math.random()*25+'px';e.style.animationDelay=Math.random()*1.5+'s';document.body.appendChild(e);setTimeout(()=>e.remove(),5200)}}
+function yes(){burst();setTimeout(()=>{document.querySelectorAll('section').forEach(s=>s.style.display='none');answer.style.display='flex';answer.scrollIntoView()},500)}
+function think(){think.textContent='TAKE YOUR TIME 🤍';setTimeout(()=>think.textContent="I'M STILL HERE 😌",1200)}
+let audio=false,ctx;
+sound.onclick=()=>{if(!audio){ctx=new(window.AudioContext||window.webkitAudioContext)();let f=[261.63,329.63,392,493.88,392,329.63],t=ctx.currentTime;f.forEach((x,i)=>{let o=ctx.createOscillator(),g=ctx.createGain();o.frequency.value=x;o.type='sine';g.gain.setValueAtTime(.0001,t+i*1.1);g.gain.exponentialRampToValueAtTime(.035,t+i*1.1+.2);g.gain.exponentialRampToValueAtTime(.0001,t+i*1.1+1);o.connect(g).connect(ctx.destination);o.start(t+i*1.1);o.stop(t+i*1.1+1.05)});audio=true;sound.textContent='🔊'}else{ctx.suspend();audio=false;sound.textContent='♫'}};
+</script>
+</body>
+</html>
